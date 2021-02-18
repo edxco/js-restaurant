@@ -4,7 +4,9 @@
   "description": "Understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode=development --open",
+    "build": "export NODE_ENV=production && webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,20 @@
   "bugs": {
     "url": "https://github.com/edxco/js-restaurant/issues"
   },
-  "homepage": "https://github.com/edxco/js-restaurant#readme"
+  "homepage": "https://github.com/edxco/js-restaurant#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.0.0",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "postcss-loader": "^5.0.0",
+    "style-loader": "^2.0.0"
+  }
 }

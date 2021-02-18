@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+.landing {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+  }
+   .landing video {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	object-fit: cover;
+  }
+   .landing .dim {
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: black;
+  }
+   .landing .text {
+	position: relative;
+	top: calc(50% - 2em);
+	text-align: center;
+  }
+
+  .header_1 {
+	@apply text-gray-600 bg-white;
+  }
+
+   .a_navBar {
+	 @apply flex font-medium items-center text-gray-900 mb-4 md:mb-0;
+   }
+@tailwind utilities;
