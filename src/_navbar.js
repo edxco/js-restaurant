@@ -14,29 +14,29 @@ export default function navBar() {
     img.src = logo;
 
     const nav = document.createElement('nav');
-    nav.className = 'md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center';
-    const menu1 = document.createElement('a')
-    menu1.className = 'mr-5 hover:text-gray-900'
-    menu1.textContent = 'Menu 1'
-    const menu2 = document.createElement('a')
-    menu2.className = 'mr-5 hover:text-gray-900'
-    menu2.textContent = 'Menu 2'
-    const menu3 = document.createElement('a')
-    menu3.className = 'mr-5 hover:text-gray-900'
-    menu3.textContent = 'Menu 3'
-    const menu4 = document.createElement('a')
-    menu4.className = 'mr-5 hover:text-gray-900'
-    menu4.textContent = 'Menu 4'
+    nav.className = 'md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-xl justify-center';
+    const menu1 = document.createElement('span')
+    menu1.className = 'mr-5 hover:text-blue-900 cursor-pointer'
+    menu1.setAttribute('id', 'index');
+    menu1.textContent = 'Home'
+    const menu2 = document.createElement('span')
+    menu2.className = 'mr-5 hover:text-blue-900 cursor-pointer'
+    menu2.setAttribute('id', 'menu');
+    menu2.textContent = 'Menu'
+    const menu3 = document.createElement('span')
+    menu3.className = 'mr-5 hover:text-blue-900 cursor-pointer'
+    menu3.setAttribute('id', 'contactUs');
+    menu3.textContent = 'Contact Us'
 
     const button = document.createElement('button');
-    button.className = 'inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0';
-    button.innerHTML = 'Button <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>'
+    button.className = 'inline-flex items-center text-white bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-blue-400 rounded text-base mt-4 md:mt-0';
+    button.innerHTML = 'Facebook <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" /></svg>'
 
     container.append(div1);
     div1.append(a, nav, button);
     a.append(div2);
     div2.append(img);
-    nav.append(menu1, menu2, menu3, menu4);
+    nav.append(menu1, menu2, menu3);
 
 
 
