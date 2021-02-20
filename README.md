@@ -4,7 +4,7 @@
 # Restaurant-Webpack
 Restaurant plain webpage with sections; understanding the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
 
-![](https://i.imgur.com/fWbm1t6.jpg)
+![](https://github.com/edxco/js-restaurant/blob/restaurant/sample.jpg)
 
 ## Built with
 - Javascript
