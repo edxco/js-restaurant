@@ -6,7 +6,7 @@ export default function home() {
   main.className = 'landing';
   const video = document.createElement('video');
   video.setAttribute('autoplay', 'true');
-  video.setAttribute('loop', 'true')
+  video.setAttribute('loop', 'true');
   video.src = videoRest;
   const layer = document.createElement('div');
   layer.className = 'dim';
