@@ -1,6 +1,3 @@
-# js-restaurant
-
-
 # Restaurant-Webpack
 Restaurant plain webpage with sections; understanding the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
 
@@ -13,7 +10,7 @@ Restaurant plain webpage with sections; understanding the benefits of modularize
 - TailWindCss
 
 ## Live Demo
-[Click to open demo](https://github.com/edxco/js-restaurant/blob/restaurant/sample.jpg)
+[Click to open demo](https://edxco.github.io/js-restaurant/)
 
 ## Getting Started
 
