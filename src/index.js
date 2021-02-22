@@ -16,11 +16,6 @@ const goToIndex = () => {
   mainDiv.appendChild(home());
 };
 
-// const goToAbout = () => {
-//   mainDiv.textContent = '';
-//   mainDiv.appendChild(loadAboutUs());
-// };
-
 const goToMenu = () => {
   mainDiv.textContent = '';
   mainDiv.appendChild(menuSection());
